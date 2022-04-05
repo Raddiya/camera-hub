@@ -4,9 +4,9 @@ import React from "react";
 const Review = (props) => {
   const { about, name, rating, picture } = props.product;
   return (
-    <div className="p-4 user-card">
+    <div className="border border-3 mb-2">
       <div className="text-center">
-        <img className="user-img mb-3" src={picture} alt="" />
+        <img src={picture} alt="" />
       </div>
       <div className="text-center">
         <h4>Name: {name}</h4>

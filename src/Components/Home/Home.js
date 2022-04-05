@@ -6,7 +6,7 @@ import Review from "../Review/Review";
 import "./Home.css";
 
 const Home = () => {
-    const [card, setCard] = useCard();
+    const [card] = useCard();
     return (
         <section>
             <div className='row container mt-4 align-items-center'>
@@ -14,13 +14,15 @@ const Home = () => {
                     <img className='img-fluid' src={Camera} alt="Dslr" />
                 </div>
                  <div className='col-lg-7 col-md-8'>
-                An ideal travel camera is lightweight, versatile, and captures great images. Point-and-shoots are the smallest and least expensive option, but they have some limitations in terms of image quality. Mirrorless interchangeable-lens cameras have big...
+                     <h3 className='fst-italic'>Best Travel Camera </h3>
+                     <p className='fst-normal'> An ideal travel camera is lightweight, versatile, and captures great images. Point-and-shoots are the smallest and least expensive option, but they have some limitations in terms of image quality. Mirrorless interchangeable-lens cameras have big.</p>
+               
                 </div>
             </div>
             <hr></hr>
             <div>               
                 <h4>Coustomer review(3)</h4>
-                <div className="card">
+                <div className="container">
                     {card.map(
                         (item, index) => index < 3 && <Review key={index} product={item}></Review>
                     )}

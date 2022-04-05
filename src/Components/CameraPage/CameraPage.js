@@ -7,7 +7,7 @@ const CameraPage = () => {
   const [card, setCard] = useCard();
   return (
     <div className="container d-flex justify-content-center">
-      <div className="card-compo">
+      <div>
         {card.map((item) => (
           <Review product={item}></Review>
         ))}

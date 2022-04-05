@@ -1,7 +1,8 @@
 .web-name{
 color:green;
-background-color: aquamarine;
 }
 .navbar{
-    
+background-color: aquamarine;
+margin: 10px;
+padding: 10px;
 }
