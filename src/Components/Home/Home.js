@@ -1,10 +1,19 @@
 import React from 'react';
+import Camera from '../image/dslr-camera.jpg'
 
 const Home = () => {
     return (
-        <div>
-            <h1>Hello!</h1>
-        </div>
+        <section>
+            <div>
+                <div>
+                    <img src={Camera} alt="Dslr" />
+                </div>
+                <div>
+
+                </div>
+            </div>
+            <div><p>Review</p></div>
+        </section>
     );
 };
 
