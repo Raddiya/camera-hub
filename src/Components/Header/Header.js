@@ -5,7 +5,6 @@ import CoustomLink from '../CoustomLink/CoustomLink';
 const Header = () => {
     return (
         <div>
-
             <nav className='navbar'>
                 <h1 className='web-name'>Camera hub bd</h1>
                 <CoustomLink to="/">Home</CoustomLink>
