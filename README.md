@@ -1,6 +1,6 @@
 #Camera Hub bd
 
-This project was bootstrapped with [Camera Hub bd](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Camera Hub bd](https://camera-hub-bd-raddiya.netlify.app/).
 
 ## Features
 
